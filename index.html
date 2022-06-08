@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Register yourself!</h1>
+    </header>
+    <br>
+    <p> Your data is safe with us. We are collecting this data to know more about you. Knowing you will help us help you.</p>
+    <br>
+    <hr>
+    <h2>Fill this form</h2>
+    <br>
+    <form>
+        <div>
+        <label>Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter user name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder="ex: name@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+        </div>
+        <br>
+        <div>
+            <label>Date of birth</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <br>
+        <div>
+            <label>Age</label>
+            <input type="number" id="age" name="age" value="18">
+        </div>
+        <br>
+        <div>
+            <label>Programming Level:</label><br>
+            <input type="radio" id="basic" name="level" value="basic">
+            <label for="basic">Basic</label><br>
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">intermediate</label><br>
+            <input type="radio" id="expert" name="level" value="expert">
+            <label for="expert">Expert</label>
+            
+        </div>
+        <br>
+        <div>
+            <label>Programming languages you know:</label><br>
+            <input type="checkbox" id="lang1" name="lang1" value="Python">
+            <label for="lang1"> Python</label><br>
+            <input type="checkbox" id="lang2" name="lang2" value="cpp">
+            <label for="lang2"> C++</label><br>
+            <input type="checkbox" id="lang3" name="lang3" value="java">
+            <label for="lang2"> Java</label><br>
+        </div>
+        <input type="hidden" id="dummy" name="dummy" value="34657">
+        <br>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+    <footer id="footer">
+        <p>Copyright &copy; 2022, Vartika's Website</p>
+    </footer>
+</body>
+</html>
